@@ -1,23 +1,23 @@
-# README
+# Ruby Tutorial
 
-Ruby Tutorial
+> Ruby on Rails 5 app that build a blog
 
-Things you may want to cover:
+### Features
 
-- Ruby version
+- real time chat
 
-- System dependencies
+- blog
 
-- Configuration
+- protfolio
 
-- Database creation
+- drag and drop
 
-- Database initialization
+```ruby
+def my_method
+  puts "here it is"
+generated
+```
 
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+```javascript
+alert("Hi there");
+```
