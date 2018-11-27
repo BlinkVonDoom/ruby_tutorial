@@ -2,9 +2,9 @@
 <%= link_to "create new item", new_portfolio_path %>
 
 <% @portfolioItems.each do |portfolioItem| %>
-  <p><%= portfolioItem.title %></p>
+  <p><%= link_to portfolioItem.title, portfolio_path(portfolioItem) %></p>
   <p><%= portfolioItem.subTitle %></p>
   <p><%= portfolioItem.body %></p>
   <%= image_tag portfolioItem.thumbImage unless portfolioItem.thumbImage.nil? %>
-  <%= link_to "edit", edit_portfolio_path(portfolioItem.id) %>
+  <%= link_to "edit", edit_portfolio_path(portfolioItem) %>
 <% end %>
